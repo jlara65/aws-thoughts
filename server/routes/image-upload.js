@@ -1,7 +1,7 @@
-const paramsConfig = require('../utils/params-config');
 const express = require('express');
 const router = express.Router();
 const multer = require('multer');
+const paramsConfig = require('../utils/params-config');
 const AWS = require('aws-sdk');
 const s3 = new AWS.S3({
   apiVersion: '2006-03-01',
